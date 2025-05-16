@@ -86,6 +86,8 @@ header a:hover{
     color: black;
 }
 
+/* news letter */
+
 #newsletter{
     background: rgb(24, 23, 23);
     color: white;
@@ -93,6 +95,8 @@ header a:hover{
 }
 #newsletter h1{
     float: left;
+    font-weight: bold;
+    font-size: 25px;
 }
 #newsletter form{
     float: right;
@@ -102,4 +106,32 @@ header a:hover{
     padding: 4px;
     height: 25px;
     width: 250px
+}
+
+/* Boxes */
+
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+#boxes .box img{
+    background-color: transparent;
+    object-fit: cover;
+    height: 250px;
+    /* border: 1px solid black; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+}
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #e8491d;
+    color: #fff;
 }
