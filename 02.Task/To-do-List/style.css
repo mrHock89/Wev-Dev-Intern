@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9b7c7c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 9px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input[type='text'],
+  .edit-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #333;
+    font-size: 14px;
+  }
+  
+  input[type='text'] {
+    width: 70%;
+  }
+  
+  .edit-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #add-task-btn {
+    width: 25%;
+    padding: 10px;
+    background-color: #6200ea;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #add-task-btn:hover {
+    background-color: #3e0a86;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: #333333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  li.completed span {
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  li span {
+    word-break: break-word;
+    margin-bottom: 8px;
+  }
+  
+  .task-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .edit-btn {
+    background-color: #0288d1;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .edit-btn:hover {
+    background-color: #01579b;
+  }
+  
+  .delete-btn {
+    background-color: #d32f2f;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #b71c1c;
+  }
+  
+  .save-btn {
+    background-color: #2e7d32;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .save-btn:hover {
+    background-color: #1b5e20;
+  }
+  

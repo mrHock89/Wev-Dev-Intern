@@ -1,0 +1,5 @@
+[
+  {"id": 1, "name": "Product A", "price": 29.99, "image": "https://www.i95dev.com/wp-content/uploads/2021/11/Book-Image.png", "description": "A great product."},
+  {"id": 2, "name": "Product B", "price": 39.99, "image": "https://m.media-amazon.com/images/I/712SuRmHG4L._AC_UF1000,1000_QL80_.jpg", "description": "Another awesome item."},
+  {"id": 3, "name": "Product C", "price": 19.99, "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/smartwatch/q/g/g/44-t55-android-ios-zwero-yes-original-imagmrxg8fznyqkg.jpeg?q=20&crop=false", "description": "Don't miss this one."}
+]

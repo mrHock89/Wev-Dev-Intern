@@ -1,0 +1,120 @@
+body {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    font-weight: bold;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background: rgb(254, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+  }
+  .input{
+    background-color: rgb(199, 197, 197);
+    padding: 10px 15px;
+    border-radius: 8px;
+    transform: scale(0.98);
+    transition: all 0.3s ease-in-out;
+  }
+  .input:hover{
+    transform: scale(1);
+  }
+  input{
+    border: none;
+    padding: 10px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    font-size: 16px;
+    /* border: 1px solid black; */
+  }
+  
+  button{
+    background-color: rgb(21, 80, 158);
+    color: #fff;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    font-size: 16px;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: rgb(9, 44, 90);
+  }
+  input:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  
+  #weatherInfo, #forecast {
+    margin-top: 20px;
+  }
+  #weatherInfo{
+    background-color: #dbeafe;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.98);
+    /* box-shadow: 0 6px 10px rgba(0,0,0,0.2); */
+  }
+  #weatherInfo h2{
+    padding: 10px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  #weatherInfo:hover{
+    transform: scale(1);
+    cursor: pointer;
+  }
+  
+  .forecast-cards {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .forecast-day {
+    background-color: #dbeafe;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+    transform: scale(0.9);
+}
+.forecast-day:hover{
+      transform: scale(1);
+      cursor: pointer;
+  }
+  
+
+  @media (max-width: 600px) {
+    input[type="text"], button {
+      width: 100%;
+      margin: 10px 0;
+      box-sizing: border-box;
+    }
+  
+    .forecast-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .forecast-day {
+      width: 90%;
+    }
+  }
+  
